@@ -1,0 +1,8 @@
+qu=int(input('Quantos cigarros por dia você fuma?'))
+anos=int(input('Quantos anos você já fuma'))
+
+total= anos * 365 * qu
+dias = total / 144
+
+
+print(f'Total de dias perdidos: {dias:.1f}')

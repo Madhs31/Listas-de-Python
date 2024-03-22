@@ -1,0 +1,5 @@
+temp_fa=int(input('Digite a temperatura em fahrenheit:'))
+
+f_c=(temp_fa-32)/1.8
+
+print(f'A temperatura em Celsius é:{f_c:.2f}º')

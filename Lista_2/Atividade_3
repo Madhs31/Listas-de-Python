@@ -1,0 +1,10 @@
+peso=float(input('Digite o peso:'))
+
+excesso=0
+multa=0
+
+if (peso>50):
+	excesso=peso-50
+	multa=excesso*4
+print(f'Possui {excesso:.2f}kg a mais')
+print(f'A multa será de R${multa:.2f}')

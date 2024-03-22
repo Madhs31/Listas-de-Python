@@ -1,0 +1,13 @@
+m=float(input('Digite o valor em metros'))
+
+print('O valor convertido em milímetros é:', m*1000)
+
+
+	#atividade 3
+
+d=int(input('Digite a quantidade de dias:'))
+h=int(input('Digite a quantidade de horas:'))
+m=int(input('DIgite a quantidade de minutos'))
+s=int(input('Digite a quantidade de segundos'))
+
+print('Total de segundos é:',(d*86400)+(h*3600)+(m*60)+(s))

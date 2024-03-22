@@ -1,0 +1,8 @@
+s=float(input('Digite seu salário:'))
+p=float(input('Digite a porcentagem de aumento:'))
+
+aumento=s*p/100
+novo=aumento+s
+
+print(f'O valor do aumento é de {aumento:.2f} %') 
+print(f'O valor do novo salário é de:{novo:.2f}reais')

@@ -1,0 +1,6 @@
+d=float(input('Digite a distância da viagem:'))
+vm=int(input('Digite a velocidade média esperada para a viagem:'))
+
+tempo = d/vm
+
+print(f'O tempo estimado de viagem é de {tempo:.2f} horas.')

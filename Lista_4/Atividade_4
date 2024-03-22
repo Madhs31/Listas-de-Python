@@ -11,3 +11,5 @@ for i in palavras:
 	p=i.lower()
 	if (p[0] in "python"):
 		python.append(i)
+
+print(python)

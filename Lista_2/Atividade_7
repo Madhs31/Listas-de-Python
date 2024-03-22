@@ -1,0 +1,10 @@
+m_qua=float(input('Digite o tamanho em metros quadrados da área a ser pintada:'))
+
+if (m_qua>3): 
+    quant= m_qua/54 
+else:
+    quant= int(m_qua/54)+1 
+
+preço=quant*80
+print(f'A quantidade de latas é igual a {quant}')
+print(f'O preço a se pagar é de R${preço:.2f}')	
